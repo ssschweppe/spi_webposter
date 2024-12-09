@@ -1,0 +1,158 @@
+body {
+    width: 100%;
+}
+
+p {
+    font-family: 'Gergel';
+    color: #FEDA00;
+    font-size: 4.44vw;
+}
+
+.board {
+    background: #FEDA00;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33vw);
+    grid-template-rows: repeat(5, 33.33vw);
+    gap: 0.07vw;
+}
+
+.reality {
+    height: 14.38vw;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.reality p{
+    margin-top: 2.80vw;
+    font-size: 8.89vw;
+    color: black;
+    text-wrap: nowrap;
+}
+
+.board div{
+    background-color: black;
+}
+
+.first{
+    padding-top: 5.56vw;
+    overflow: hidden;
+}
+
+.gradient_arrows {
+    display: flex;
+    flex-direction: row;
+}
+
+.first img {
+    width: 26.94vw;
+}
+
+.first p {
+    margin-top: 0.31vw;
+    margin-left: 30.07vw;
+}
+
+.second {
+    position: relative;
+}
+
+.reality_p {
+    font-size: 2.5vw;
+}
+
+.second p:nth-child(2) {
+    position: absolute;
+    top: 28.82vw;
+    left: 30.07vw;
+}
+
+.third img {
+    width: 23.96vw;
+    margin: 1.50vw 0px 0px 3.61vw;
+}
+
+.third p {
+    margin-left: 430;
+}
+
+.random_purple img, .random_pink img {
+    width: 33.33vw;
+}
+
+.fourth {
+    position: relative;
+    overflow: hidden;
+}
+
+.random_purple {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.fourth p {
+    position: absolute;
+    top: 28.68vw;
+    left: 30.07vw;
+}
+
+.fifth {
+    position: relative;
+    overflow: hidden;
+}
+
+.circles img:nth-child(1) {
+    width: 5.42vw;
+    filter: blur(4px);
+}
+
+.circles img:nth-child(2) {
+    width: 10.83vw;
+    filter: blur(2px);
+}
+
+.circles img:nth-child(3) {
+    width: 14.1vw;
+    filter: blur(3px);
+}
+
+.circles img:nth-child(4) {
+    width: 6.67vw;
+}
+
+.circles img:nth-child(5) {
+    width: 7.78vw;
+    filter: blur(6px);
+}
+
+.circles img:nth-child(6) {
+    width: 5.42vw;
+    filter: blur(1px);
+}
+
+.circles img:nth-child(7) {
+    width: 13.61vw;
+    filter: blur(2px);
+}
+
+.fifth p, .sixth p {
+    position: absolute;
+    top: 28.68vw;
+    left: 30.07vw;
+}
+
+.sixth {
+    position: relative;
+}
+
+.sixth img {
+    width: 32.08vw;
+    margin: 0.56vw 0px 0px 0.56vw;
+}
+
+.random_pink {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
