@@ -1,5 +1,4 @@
 body {
-    max-width: 100%;
     width: 100vw;
 }
 
@@ -47,8 +46,8 @@ p {
 .board {
     background: #FEDA00;
     display: grid;
-    grid-template-columns: repeat(3, 33.29vw);
-    grid-template-rows: repeat(5, 33.29vw);
+    grid-template-columns: repeat(3, 33.286vw);
+    grid-template-rows: repeat(5, 33.286vw);
     gap: 0.07vw;
 }
 
@@ -106,7 +105,7 @@ p {
 }
 
 .random_purple img, .random_pink img, .eighth img, .tunnels img:nth-child(1) {
-    width: 33.29vw;
+    width: 33.286vw;
 }
 
 .random_purple {
@@ -301,4 +300,66 @@ p {
     font-size: 8.89vw;
     color: rgb(255, 255, 255);
     text-wrap: nowrap;
+}
+
+.dash_arrow {
+    position: absolute;
+    top: 71.25vw;
+    left: 49.24vw;
+    width: 46.53vw;
+    height: 58.33vw;
+}
+
+.dash_arrow img {
+    position: absolute;
+}
+
+.dash_arrow img:nth-child(1) {
+    width: 18.96vw;
+    left: 10.69vw;
+}
+
+.dash_arrow img:nth-child(2) {
+    width: 6.81vw;
+    top: 16.25vw;
+    left: 31.25vw;
+}
+
+.dash_arrow img:nth-child(3) {
+    width: 11.94vw;
+    top: 28.54vw;
+    left: 26.81vw;
+}
+
+.dash_arrow img:nth-child(4) {
+    width: 11.18vw;
+    top: 19.86vw;
+    left: 26.2vw;
+}
+
+.dash_arrow img:nth-child(5) {
+    width: 8.4vw;
+    top: 20.21vw;
+    left: 38vw;
+}
+
+.dash_arrow img:nth-child(6) {
+    width: 22.5vw;
+    top: 38vw;
+    left: 16.9vw;
+}
+
+.dash_arrow img:nth-child(7) {
+    width: 12.36vw;
+    top: 48.68vw;
+}
+
+.star_arrow img {
+    width: 43.54vw;
+}
+
+.star_arrow {
+    position: absolute;
+    top: 31vw;
+    left: 48vw;
 }

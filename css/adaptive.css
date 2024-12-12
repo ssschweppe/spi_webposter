@@ -1,0 +1,9 @@
+@media (max-width: 320px) {
+    .board {
+        background: #FEDA00;
+        display: grid;
+        grid-template-columns: repeat(2, 49.93vw);
+        grid-template-rows: repeat(8, 49.93vw);
+        gap: 0.07vw;
+    }
+}
