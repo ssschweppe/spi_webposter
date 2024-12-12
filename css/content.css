@@ -1,5 +1,41 @@
 body {
-    width: 100%;
+    max-width: 100%;
+    width: 100vw;
+}
+
+.second, .third, .sixth, .eighth, .twelfth, .thirteenth {
+    position: relative;
+}
+
+.fourth, .fifth, .seventh, .eleventh, .twelfth, .fourteenth {
+    position: relative;
+    overflow: hidden;
+}
+
+.third p, .sixth p {
+    position: absolute;
+    top: 28.68vw;
+    left: 29vw;
+}
+
+.fourth p, .fifth p, .seven, .eight {
+    position: absolute;
+    top: 28.68vw;
+    left: 30.07vw;
+}
+
+.ninth p {
+    margin: 28.6vw 0vw 0vw 28.82vw;
+}
+
+.tenth p {
+    margin: 28.6vw 0vw 0vw 27.08vw;
+}
+
+.twelfth p, .thirteenth p, .fourteenth p{
+    position: absolute;
+    top: 28.6vw;
+    left: 27.7vw;
 }
 
 p {
@@ -11,12 +47,13 @@ p {
 .board {
     background: #FEDA00;
     display: grid;
-    grid-template-columns: repeat(3, 33.33vw);
-    grid-template-rows: repeat(5, 33.33vw);
+    grid-template-columns: repeat(3, 33.29vw);
+    grid-template-rows: repeat(5, 33.29vw);
     gap: 0.07vw;
 }
 
 .reality {
+    position: relative;
     height: 14.38vw;
     display: flex;
     flex-direction: row;
@@ -34,7 +71,7 @@ p {
     background-color: black;
 }
 
-.first{
+.first {
     padding-top: 5.56vw;
     overflow: hidden;
 }
@@ -53,10 +90,6 @@ p {
     margin-left: 30.07vw;
 }
 
-.second {
-    position: relative;
-}
-
 .reality_p {
     font-size: 2.5vw;
 }
@@ -68,36 +101,23 @@ p {
 }
 
 .third img {
-    width: 23.96vw;
-    margin: 1.50vw 0px 0px 3.61vw;
+    width: 25vw;
+    margin: 1.4vw 0vw 0vw 3.61vw;
 }
 
-.third p {
-    margin-left: 29.86vw;
-}
-
-.random_purple img, .random_pink img {
-    width: 33.33vw;
-}
-
-.fourth {
-    position: relative;
-    overflow: hidden;
+.random_purple img, .random_pink img, .eighth img, .tunnels img:nth-child(1) {
+    width: 33.29vw;
 }
 
 .random_purple {
     display: flex;
-    flex-direction: row;
     overflow: hidden;
 }
 
-.fourth p {
-    z-index: 1;
-}
-
-.fifth {
-    position: relative;
-    overflow: hidden;
+.eleven {
+    position: absolute;
+    top: 28.68vw;
+    left: 28.22vw;
 }
 
 .circles img:nth-child(1) {
@@ -134,23 +154,151 @@ p {
     filter: blur(2px);
 }
 
-.fifth p, .sixth p {
-    position: absolute;
-    top: 28.68vw;
-    left: 30.07vw;
-}
-
-.sixth {
-    position: relative;
-}
-
-.sixth img {
+.sixth img, .thirteenth img {
     width: 32.08vw;
     margin: 0.56vw 0px 0px 0.56vw;
+}
+
+.go_sleep p{
+    font-size: 3.33vw;
+    color: white;
+    text-wrap: nowrap;
+}
+
+.back_to_reality1, .back_to_reality2 {
+    position: absolute;
+    top: 15.6vw;
+    left: 0.5vw;
+    width: 33.06vw;
+    height: 2.5vw;
+    overflow: hidden;
+}
+
+.back_to_reality1 p, .back_to_reality2 p {
+    background-color: #FEDA00;
+    text-wrap: nowrap;
+    font-size: 2.5vw;
+    color: black;
+}
+
+.back_to_reality1 {
+    rotate: 45deg;
+}
+
+.back_to_reality2 {
+    rotate: -45deg;
+}
+
+.errors p {
+    font-size: 4.44vw;
+    position: absolute;
+}
+
+.errors p:nth-child(1) {
+    top: 0.49vw;
+    left: 18.61vw;
+}
+
+.errors p:nth-child(2) {
+    top: 1.6vw;
+    left: 1.11vw;
+}
+
+.errors p:nth-child(3) {
+    top: 3.26vw;
+    left: 5.63vw;
+}
+
+.errors p:nth-child(4) {
+    font-size: 6.67vw;
+    top: 5.49vw;
+    left: 13.82vw;
+}
+
+.errors p:nth-child(5) {
+    top: 7.71vw;
+    left: 1.32vw;
+}
+
+.errors p:nth-child(6) {
+    top: 11.04vw;
+    left: 8.19vw;
+}
+
+.errors p:nth-child(7) {
+    font-size: 6.67vw;
+    top: 13.26vw;
+    left: 1.18vw;
+}
+
+.errors p:nth-child(8) {
+    top: 15.49vw;
+    left: 14.58vw;
+}
+
+.errors p:nth-child(9) {
+    top: 18.26vw;
+    left: 0vw;
+}
+
+.errors p:nth-child(10) {
+    font-size: 6.67vw;
+    top: 19.93vw;
+    left: 7.08vw;
+}
+
+.errors p:nth-child(11) {
+    top: 24.38vw;
+    left: -3.06vw;
+}
+
+.errors p:nth-child(12) {
+    top: 24.93vw;
+    left: 14.58vw;
+}
+
+.errors p:nth-child(13) {
+    top: 27.6vw;
+    left: 1.6vw;
 }
 
 .random_pink {
     overflow: hidden;
     display: flex;
+}
+
+.tunnels img:nth-child(2) {
+    position: absolute;
+    width: 27.92vw;
+    left: 2.78vw;
+    top: 2.78vw;
+}
+
+.fifteenth img {
+    width: 31.25vw;
+    margin-top: 9.44vw;
+}
+
+.fifteenth p {
+    margin: 5.63vw 0vw 0vw 27vw;
+}
+
+.fifteenth {
+    background: #7036CC;
+}
+
+.dream {
+    background: black;
+    position: relative;
+    height: 14.38vw;
+    display: flex;
     flex-direction: row;
+    overflow: hidden;
+}
+
+.dream p{
+    margin-top: 2.80vw;
+    font-size: 8.89vw;
+    color: rgb(255, 255, 255);
+    text-wrap: nowrap;
 }
