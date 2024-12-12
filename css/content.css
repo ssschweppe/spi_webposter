@@ -73,7 +73,7 @@ p {
 }
 
 .third p {
-    margin-left: 430;
+    margin-left: 29.86vw;
 }
 
 .random_purple img, .random_pink img {
@@ -92,9 +92,7 @@ p {
 }
 
 .fourth p {
-    position: absolute;
-    top: 28.68vw;
-    left: 30.07vw;
+    z-index: 1;
 }
 
 .fifth {
