@@ -46,10 +46,10 @@ p {
 .board {
     background: #FEDA00;
     display: grid;
-    grid-template-columns: repeat(3, 33.286vw);
-    grid-template-rows: repeat(5, 33.286vw);
-    gap: 0.07vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
+
 
 .reality {
     position: relative;
@@ -68,11 +68,11 @@ p {
 
 .board div{
     background-color: black;
-}
-
-.first {
-    padding-top: 5.56vw;
     overflow: hidden;
+    grid-column: span 1;
+    width: 33.268vw;
+    height: 33.268vw;
+    border: 2px #FEDA00;
 }
 
 .gradient_arrows {
