@@ -1,8 +1,0 @@
-@import "reset.css";
-@import "content.css";
-@import "adaptive.css";
-
-@font-face {
-    font-family: "Gergel";
-    src: url(../fonts/gergel_font.ttf);
-}
