@@ -1,0 +1,235 @@
+@media (max-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .board {
+        background: #FEDA00;
+        display: grid;
+        grid-template-columns: repeat(2, 49.93vw);
+        grid-template-rows: repeat(8, 49.93vw);
+        gap: 1px;
+        overflow: hidden;
+    }
+    
+    .fourth p, .fifth p, .seven, .eight,  .second p:nth-child(2), .third p, .sixth p{
+        top: 43.5vw;
+        left: 45.63vw;
+    }
+    
+    .tenth p, .eleven, .twelfth p, .thirteenth p, .fourteenth p {
+        top: 43.5vw;
+        left: 42.31vw;
+    }
+
+    .ninth p {
+        margin: 43.5vw 0vw 0vw 45.63vw;
+    }
+    
+    .gradient_arrows {
+        padding-top: 10.47vw;
+        animation: scroll_arrow_adaptive 2s linear infinite;
+    }
+    
+    .first img {
+        width: 35vw;
+    }
+    
+    .first p {
+        margin-top: 3.13vw;
+        margin-left: 45.63vw;
+    }
+
+    .reality_p {
+        font-size: 3.75vw;
+    }
+    
+    .third img {
+        width: 38.88vw;
+        margin: 1.56vw 0vw 0vw 4.56vw;
+    }
+    
+    .random_purple img, .random_pink img, .eighth img, .tunnels img:nth-child(1) {
+        width: 50vw;
+    }
+
+    .random_pink, .random_purple {
+        animation: random_adaptive 3s steps(11) infinite, linear;
+    }
+    
+    .star, .skip_pink, .skip_blue{
+        width: 47.5vw;
+        margin: 1.56vw 0px 0px 1.56vw;
+    }
+    
+    .go_sleep p{
+        font-size: 5vw;
+    }
+    
+    .back_to_reality1, .back_to_reality2 {
+        top: 21.5vw;
+        left: 0.2vw;
+        width: 49.69vw;
+        height: 3.9vw;
+    }
+    
+    .back_to_reality1 p, .back_to_reality2 p {
+        font-size: 4vw;
+    }
+    
+    .errors p {
+        font-size: 7.5vw;
+    }
+    
+    .errors p:nth-child(1) {
+        top: 0.49vw;
+        left: 22.61vw;
+    }
+    
+    .errors p:nth-child(2) {
+        top: 2.93vw;
+        left: 2.76vw;
+    }
+    
+    .errors p:nth-child(3) {
+        top: 5.45vw;
+        left: 9.58vw;
+    }
+    
+    .errors p:nth-child(4) {
+        font-size: 8.67vw;
+        top: 9.08vw;
+        left: 22.12vw;
+    }
+    
+    .errors p:nth-child(5) {
+        top: 12.19vw;
+        left: 2.76vw;
+    }
+    
+    .errors p:nth-child(6) {
+        top: 17.19vw;
+        left: 13.37vw;
+    }
+    
+    .errors p:nth-child(7) {
+        font-size: 8.67vw;
+        top: 20.84vw;
+        left: 3.01vw;
+    }
+    
+    .errors p:nth-child(8) {
+        top: 23.93vw;
+        left: 22.81vw;
+    }
+    
+    .errors p:nth-child(9) {
+        top: 28.13vw;
+        left: 0vw;
+    }
+    
+    .errors p:nth-child(10) {
+        font-size: 8.67vw;
+        top: 30.94vw;
+        left: 11.93vw;
+    }
+    
+    .errors p:nth-child(11) {
+        top: 37.5vw;
+        left: -3.44vw;
+    }
+    
+    .errors p:nth-child(12) {
+        top: 38.13vw;
+        left: 23.03vw;
+    }
+    
+    .errors p:nth-child(13) {
+        top: 41vw;
+        left: 3.75vw;
+    }
+    
+    .tunnels img:nth-child(2) {
+        width: 42.19vw;
+        left: 3.75vw;
+        top: 3.75vw;
+    }
+    
+    .fifteenth svg {
+        height: 37.5vw;
+        width: 83.69vw;
+        margin: 6.88vw 9.31vw;
+    }
+
+    .fifteenth p {
+        left: 92vw;
+        top: 44.38vw;
+    }
+    
+    .fifteenth {
+        grid-column: span 2;
+    }
+    
+    .dash_arrow {
+        transform: scale(-1.2, 1.2);
+        top: 206.25vw;
+        left: 12.19vw;
+    }
+    
+    .dash_arrow img:nth-child(1) {
+        width: 20.96vw;
+        left: 11.69vw;
+    }
+    
+    .dash_arrow img:nth-child(2) {
+        width: 6.81vw;
+        top: 17.25vw;
+        left: 32.25vw;
+    }
+    
+    .dash_arrow img:nth-child(3) {
+        width: 11.94vw;
+        top: 29.54vw;
+        left: 27.81vw;
+    }
+    
+    .dash_arrow img:nth-child(4) {
+        width: 11.18vw;
+        top: 20.86vw;
+        left: 27.2vw;
+    }
+    
+    .dash_arrow img:nth-child(5) {
+        width: 8.4vw;
+        top: 21.21vw;
+        left: 39vw;
+    }
+    
+    .dash_arrow img:nth-child(6) {
+        width: 22.5vw;
+        top: 39vw;
+        left: 17.9vw;
+    }
+    
+    .dash_arrow img:nth-child(7) {
+        width: 12.36vw;
+        top: 48.68vw;
+    }
+    
+    .star_arrow img {
+        padding-top: 3.13vw;
+        width: 91.25vw;
+        rotate: 45deg;
+    }
+    
+    .star_arrow {
+        overflow: hidden;
+        width: 66vw;
+        top: 58vw;
+        left: 34vw;
+        animation: star_arrow_adaptive 2s infinite alternate-reverse;
+        
+    }
+
+
+}
